@@ -1,0 +1,21 @@
+# Script File
+# Format:
+# + indicates a prompt
+# - indicates an option
+#   Prefix indicates which prompt to go to next
+
++Text Block 1
+-Prefix|Option 1
+-Prefix|Option 2
+-Prefix|Option 3
+
++Text Block 2
+-Prefix|Option 1
+-Prefix|Option 2
+-Prefix|Option 3
+-Prefix|Option 4
+-Prefix|Option 5
+
++Text Block 3
+-Prefix|Option 1
+

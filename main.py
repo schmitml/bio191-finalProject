@@ -20,8 +20,8 @@ def runPrompt(textMap):
         if next == 'q':
             stop = True
         else:
-            print("Input: " + next + " Options: " + str(len(currentbloc)-1))
-
+           # print("Input: " + next + " Options: " + str(len(currentbloc)-1))
+            print("\n")
             if int(next) >= len(currentbloc) or int(next) <= 0:
                 print("Oops, that wasn't right.")
                 continue
@@ -32,7 +32,7 @@ def runPrompt(textMap):
             printBloc(currentbloc)
 
 def getBloc(key, textMap):
-    print("Looking for: " + key)
+    #print("Looking for: " + key)
     try:
         return textMap[key]
     except:
@@ -41,7 +41,7 @@ def getBloc(key, textMap):
 def printBloc(bloc):
     print(bloc[0])
     for x in range(1, len(bloc)):
-        print(bloc[x][1])
+        print(str(x)+". "+bloc[x][1])
 
 def clearPrompt():
     os.system('cls' if os.name=='nt' else 'clear')

@@ -1,4 +1,4 @@
-+_first_|Welcome to (enter name of game)! Pick an animal to develop.
++_first_|Pick an animal to develop.
 -frog|Frog
 -fly|Fruit Fly
 -chicken|Chicken

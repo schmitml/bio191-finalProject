@@ -59,3 +59,75 @@
 +frogOpen|The embryo stops developing almost immediately.
 -ENDGAME|Game Over
 
+
+
++chicken|You think you may have found a way to regrow limbs in chicks. To test it, you need a couple different variations of incomplete limbs. First, you need a chick with a limb completely missing. You find a chick embyro with limb buds just starting to develop. What do you do?
+-chickenAER|Remove the apical ectodermal ridge (AER).
+-chickenZPA|Remove the zone of polarizing activity (ZPA).
+-chickenFGF|Add FGF8 to the bud.
+-chickenSHH|Add Sonic Hedgehog to the bud.
+
++chickenAER|The limb does not develop any further.
+-chicken2|Continue
+
++chickenZPA|The limb continues to develop and you notice the digits are mirrored. Better luck next time.
+-ENDGAME|Game Over
+
++chickenFGF|The limb seems to continue development normally. Better luck next time.
+-ENDGAME|Game Over
+
++chickenSHH|The limb develops but the digits are deformed. Better luck next time.
+-ENDGAME|Game Over 
+
+
+
++chicken2|Next, you need a limb that is around half developed. What do you do?
+-chickenQuarter|Wait for the limb to develop about one quarter of the way before cutting off the AER.
+-chickenHalf|Remove the AER as soon as it reaches the length you want.
+-chickenWait|Wait for the whole limb to develop then cut off half.
+
++chickenQuarter|The limb stops developing when the AER is removed.
+-ENDGAME|Game Over
+
++chickenHalf|The limb stops developing exactly where you wanted.
+-chicken3|Continue
+
++chickenWait|The embryo seems to react negatively to this and could possibly mess up the experiment.
+-ENDGAME|Game Over
+
++chicken3|All of this messing with chicken limbs has worked up your appetite. You start thinking about eating some chicken wings, which naturally leads into thinking if there is a way to create chickens with extra wings. What do you do?
+-chickenAddZpa|Add an extra ZPA.
+-chickenAddAer|Add an extra AER.
+-chickenAddFgf|Add FGF to the limb bud.
+-chickenAddShh|Add Sonic Hedgehog to the limb bud.
+
++chickenAddZpa|The wing developes its digit in a mirror image. Not quite what was wanted.
+-ENDGAME|Game Over
+
++chickenAddAer|The limb develops with a duplicated wing. Maybe chicken wings will be cheaper since you can now double the number of wings on a chicken.
+-chicken4|Continue
+
++chickenAddFgf|Nothing significant occurs. Better luck next time.
+-ENDGAME|Game Over
+
++chickenAddShh|The wing has deformed digits that looks quite unappetizing.
+-ENDGAME|Game Over
+
++chicken4|Why stop at just double the amount? Why not try to make the legs for wings instead? What do you do?
+-chickenSwapAer|Take an AER from a forelimb on another embryo and swap it with the hindlimb bud's AER.
+-chickenTbx4|Add Tbx4 to where the hindlimb will form before the bud appears.
+-chickenTbx5|Add Tbx5 to where the hindlimb will form before the bud appears.
+
++chickenSwapAer|A normal hindlimb develops.
+-ENDGAME|Game Over
+
++chickenTbx4|A normal hindlimb develops.
+-ENDGAME|Game Over
+
++chickenTbx5|A wing develops instead of a leg.
+-WIN|Time to go get some delicious wings. You win!
+
+
+
+
+

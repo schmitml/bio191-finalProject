@@ -1,7 +1,9 @@
 +_first_|Welcome to (enter name of game)! Pick an animal to develop.
 -frog|Frog
--fly|Fly
+-fly|Fruit Fly
 -chicken|Chicken
+
+################# Frog
 
 +frog|The frog egg has just been surronded by some sperm. Where do you let the sperm fertilize the egg?
 -frogVegetal|Vegetal Pole
@@ -17,6 +19,8 @@
 +frogAnimal|The sperm connects to the egg and injects its nucleus. The egg is successfully fertilized. The grey crescent forms and the poles are correctly aligned.
 -frog2|Continue
 
+##
+
 +frog2|Cells are beginning to divide. You notice the cells are not growing and cells in the vegetal pole are dividing slower than others. What do you do?
 -frogGrow|Add some vitamins to the zygote in hope they start to grow after dividing.
 -frogDivide|Induce the cells in the vegetal pole to divide quicker.
@@ -30,6 +34,8 @@
 
 +frogNothing|It is perfectly normal for cells not divide during their beginning divisions in the clevage stage. Also, the cells in the vegetal pole have a higher concentration of yolk and divide slower due to this. This is all normal and necessary for development.
 -frog3|Continue
+
+##
 
 +frog3|One of your friends believes they found a way to make bone cells much stronger. All you have to do is place some proteins in the germ layer that will become bones early in development and the cells will do the rest. Placing the proteins in the wrong layer will not be good. Which germ layer do you pick?
 -frogMeso|Mesoderm
@@ -45,6 +51,8 @@
 +frogEndo|As the embryo starts gastrulation, the cells of the endoderm do not migrate inside the embryo properly. The embryo quickly stops development.
 -ENDGAME|Game Over
 
+##
+
 +frog4|The embryo is almost finished with neurulation. You notice a very small part of the neural tube is not closed entirely near the post-anal tail. What do you do?
 -frogNo|Absolutley nothing.
 -frogClose|Close up the rest of the notochord.
@@ -59,7 +67,7 @@
 +frogOpen|The embryo stops developing almost immediately.
 -ENDGAME|Game Over
 
-
+################# Chicken
 
 +chicken|You think you may have found a way to regrow limbs in chicks. To test it, you need a couple different variations of incomplete limbs. First, you need a chick with a limb completely missing. You find a chick embyro with limb buds just starting to develop. What do you do?
 -chickenAER|Remove the apical ectodermal ridge (AER).
@@ -79,7 +87,7 @@
 +chickenSHH|The limb develops but the digits are deformed. Better luck next time.
 -ENDGAME|Game Over 
 
-
+##
 
 +chicken2|Next, you need a limb that is around half developed. What do you do?
 -chickenQuarter|Wait for the limb to develop about one quarter of the way before cutting off the AER.
@@ -94,6 +102,8 @@
 
 +chickenWait|The embryo seems to react negatively to this and could possibly mess up the experiment.
 -ENDGAME|Game Over
+
+##
 
 +chicken3|All of this messing with chicken limbs has worked up your appetite. You start thinking about eating some chicken wings, which naturally leads into thinking if there is a way to create chickens with extra wings. What do you do?
 -chickenAddZpa|Add an extra ZPA.
@@ -127,7 +137,71 @@
 +chickenTbx5|A wing develops instead of a leg.
 -WIN|Time to go get some delicious wings. You win!
 
+################# Fly
 
++fly|The fruit fly oocyte is waiting to be fertilized. What happens?
+-fly_fertilized|Fertilize the oocyte
+-fly_notFertilized|Do not fertilize the oocyte (We don't want anymore flies around here...)
 
++fly_notFertilized|The fruit fly did not get fertilized.
+-ENDGAME|Game Over
 
+##
 
++fly_fertilized|We now have a fertilized egg! What should happen next?
+-fly_growWings|We should start growing wings!
+-fly_startNuclei|Nuclei should proliferate throughout the cell.
+-fly_cellDivide|The egg should start dividing.
+
++fly_cellDivide|We don't have any nuclei for our divided cells!
+-ENDGAME|Game Over
+
++fly_growWings|Uh oh. You jumped the gun!
+-ENDGAME|Game Over
+
+##
+
++fly_startNuclei|There are nuclei everywhere! What should we do with them?
+-fly_nucleiCellWalls|Let's go ahead and erect those cell walls.
+-fly_nucleiDivide|We're ready for cell division. Let's multiply!
+-fly_nucleiWings|Ok, NOW we are ready for those wings.
+
++fly_nucleiWings|You must really want those wings. Still too soon mate.
+-ENDGAME|Game Over
+
++fly_nucleiDivide|Woah, slow down there. We still need some walls around those nuclei!
+-ENDGAME|Game Over
+
+##
+
++fly_nucleiCellWalls|Spot on! We got ourselves a blastula. What process should we undergo now?
+-fly_neurulation|I do believe it's time to neurulate, sir.
+-fly_cleavage|No, we must cleave!
+-fly_gastrulation|You're all wrong. We have to gastrulate.
+
++fly_neurulation|I think she was right, we should not have undergone neurulation.
+-ENDGAME|Game Over
+
++fly_cleavage|Yeah, definitely not supposed to cleave.
+-ENDGAME|Game Over
+
+##
+
++fly_gastrulation|You've done well so far. After gastrulation, what are two things that have been established?
+-fly_gasSegments|Obviously, we have segmented.
+-fly_gasAxisSet|Our A-P, D-V axes have been set.
+
++fly_gasSegments|Nope! We're getting ready to segment though.
+-ENDGAME|Game Over
+
+##
+
++fly_gasAxisSet|What happens now? What major process are we about to undergo?
+-fly_segment|We're going to segment!
+-fly_finallyGrowWings|We're finally going to grow those wings. I am so excited.
+
++fly_finallyGrowWings|Unfortunately, no, but we just made a big decision about our wings!
+-ENDGAME|Game Over
+
++fly_segment|Yes! We're going through segmentation. You made it! #Winning
+-WIN|Great job!

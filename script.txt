@@ -46,11 +46,11 @@
 -ENDGAME|Game Over
 
 +frog4|The embryo is almost finished with neurulation. You notice a very small part of the neural tube is not closed entirely near the post-anal tail. What do you do?
--frogNothing|Absolutley nothing.
+-frogNo|Absolutley nothing.
 -frogClose|Close up the rest of the notochord.
 -frogOpen|Open up the notochord slightly.
 
-+frogNothing|The embryo continues development, but major deformities are become more obvious as development continues.
++frogNo|The embryo continues development, but major deformities are become more obvious as development continues.
 -ENDGAME|Game Over
 
 +frogClose|The neural tube is completely closed. The embryo goes on to finish developing properly.
@@ -59,6 +59,3 @@
 +frogOpen|The embryo stops developing almost immediately.
 -ENDGAME|Game Over
 
-+ENDGAME|Start a new game or quit?
--_first_|New Game
--quit_\|Quit

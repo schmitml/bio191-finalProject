@@ -1,25 +1,64 @@
-# Script File
-# Format:
-# + indicates a prompt
-# - indicates an option
-#   Prefix indicates which prompt to go to next
-# _first_ indicates the first prompt
++_first_|Welcome to (enter name of game)! Pick an animal to develop.
+-frog|Frog
+-fly|Fly
+-chicken|Chicken
 
-+_first_|Which option do you want to choose?
--Prefix1|Option 1
--Prefix2|Option 2
--Prefix3|Option 3
++frog|The frog egg has just been surronded by some sperm. Where do you let the sperm fertilize the egg?
+-frogVegetal|Vegetal Pole
+-frogAnimal|Animal Pole
+-frogVegetable|Vegetable
 
-+Prefix1|Text Block 1
--Prefix3|Option 1
++frogVegetal|The sperm fertilizes the egg in the vegetal pole. The intial axis determination has failed and the egg stops development.
+-ENDGAME|Game Over
 
-+Prefix2|Text Block 2
--PrefixA|Option 1
--PrefixB|Option 2
--PrefixC|Option 3
--PrefixD|Option 4
--PrefixE|Option 5
++frogVegetable|You should eat more greens considering you think vegetables play a part in frog fertilization.
+-ENDGAME|Game Over
 
-+Prefix3|Text Block 3
--Prefix3|Option 1
++frogAnimal|The sperm connects to the egg and injects its nucleus. The egg is successfully fertilized. The grey crescent forms and the poles are correctly aligned.
+-frog2|Continue
 
++frog2|Cells are beginning to divide. You notice the cells are not growing and cells in the vegetal pole are dividing slower than others. What do you do?
+-frogGrow|Add some vitamins to the zygote in hope they start to grow after dividing.
+-frogDivide|Induce the cells in the vegetal pole to divide quicker.
+-frogNothing|Absolutely nothing.
+
++frogGrow|The vitamins added caused the embyro to grow a second head and eventually stoped development.
+-ENDGAME|Game Over
+
++frogDivide|The cells in the vegetal pole start dividing quicker, but the higher concentration of yolk causes failures in a majority of the divisions. There are not enough cells left to continue proper development.
+-ENDGAME|Game Over
+
++frogNothing|It is perfectly normal for cells not divide during their beginning divisions in the clevage stage. Also, the cells in the vegetal pole have a higher concentration of yolk and divide slower due to this. This is all normal and necessary for development.
+-frog3|Continue
+
++frog3|One of your friends believes they found a way to make bone cells much stronger. All you have to do is place some proteins in the germ layer that will become bones early in development and the cells will do the rest. Placing the proteins in the wrong layer will not be good. Which germ layer do you pick?
+-frogMeso|Mesoderm
+-frogEcto|Ectoderm
+-frogEndo|Endoderm
+
++frogMeso|Development contines properly and the proteins seem to be working as expected.
+-frog4|Continue
+
++frogEcto|Your friend doesn't seem pleased on how the embryo is developing. It seems that a brittle outer layer has formed. Shortly after, the embryo appears to have stopped developing.
+-ENDGAME|Game Over
+
++frogEndo|As the embryo starts gastrulation, the cells of the endoderm do not migrate inside the embryo properly. The embryo quickly stops development.
+-ENDGAME|Game Over
+
++frog4|The embryo is almost finished with neurulation. You notice a very small part of the neural tube is not closed entirely near the post-anal tail. What do you do?
+-frogNothing|Absolutley nothing.
+-frogClose|Close up the rest of the notochord.
+-frogOpen|Open up the notochord slightly.
+
++frogNothing|The embryo continues development, but major deformities are become more obvious as development continues.
+-ENDGAME|Game Over
+
++frogClose|The neural tube is completely closed. The embryo goes on to finish developing properly.
+-WIN|Your frog developed with stronger bones and was completely healthy. You win!
+
++frogOpen|The embryo stops developing almost immediately.
+-ENDGAME|Game Over
+
++ENDGAME|Start a new game or quit?
+-_first_|New Game
+-quit_\|Quit

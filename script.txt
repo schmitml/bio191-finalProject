@@ -3,19 +3,23 @@
 # + indicates a prompt
 # - indicates an option
 #   Prefix indicates which prompt to go to next
+# _first_ indicates the first prompt
 
-+Text Block 1
--Prefix|Option 1
--Prefix|Option 2
--Prefix|Option 3
++_first_|Which option do you want to choose?
+-Prefix1|Option 1
+-Prefix2|Option 2
+-Prefix3|Option 3
 
-+Text Block 2
--Prefix|Option 1
--Prefix|Option 2
--Prefix|Option 3
--Prefix|Option 4
--Prefix|Option 5
++Prefix1|Text Block 1
+-Prefix3|Option 1
 
-+Text Block 3
--Prefix|Option 1
++Prefix2|Text Block 2
+-PrefixA|Option 1
+-PrefixB|Option 2
+-PrefixC|Option 3
+-PrefixD|Option 4
+-PrefixE|Option 5
+
++Prefix3|Text Block 3
+-Prefix3|Option 1
 
